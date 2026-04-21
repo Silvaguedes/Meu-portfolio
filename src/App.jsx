@@ -1,5 +1,5 @@
 import React from "react";
-import { color, motion } from "framer-motion";
+import { color, hover, motion } from "framer-motion";
 import imagem from './assets/img/eu-perfil.jpeg';
 import { span, style } from "framer-motion/client";
 
@@ -12,11 +12,13 @@ export default function App() {
         <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
           <h1 className="font-bold text-lg">Aldair.dev</h1>
           <div className="flex gap-6 text-sm text-gray-300">
-            <a href="/aldair_dev_cv.pdf" download class="btn-cv">
-              📄 Baixar CV
+            <a href="/cv-aldair.pdf" download  className="hover:text-green-500">
+            📄 Baixar CV 
             </a>
+
             <a href="#projetos" className="hover:text-white">Projetos</a>
             <a href="#contato" className="hover:text-white">Contato</a>
+
           </div>
         </div>
       </nav>
