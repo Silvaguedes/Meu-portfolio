@@ -94,7 +94,7 @@ export default function App() {
               title: "Cadastro de Usuários",
               desc: "Sistema de Cadastro de Usuários Aplicação fullstack para gerenciamento de usuários, com cadastro, listagem e integração com banco de dados. Desenvolvida com foco em organização, estrutura de API e fluxo completo entre front-end e back-end, simulando um ambiente real de aplicação.",
               link: "https://cadastro-online.netlify.app",
-              github: "https://github.com/Silvaguedes/api-cadastro.git"
+              github: "https://github.com/Silvaguedes/cadastro-online.git"
             },
 
             {
