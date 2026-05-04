@@ -12,7 +12,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
           <h1 className="font-bold text-lg">Aldair.dev</h1>
           <div className="flex gap-6 text-sm text-gray-300">
-            <a href="/cv-aldair.pdf" download  className="hover:text-green-500">
+            <a href="/cv-aldair-full.pdf" download  className="hover:text-green-500">
             📄 Baixar CV 
             </a>
 
